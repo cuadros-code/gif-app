@@ -4,7 +4,7 @@ import {GifExpertApp} from './GifExpertApp';
 import './index.css';
 
 ReactDOM.render(
-    <GifExpertApp />,
+    <GifExpertApp  />,
   document.getElementById('root')
 );
 

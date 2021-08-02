@@ -1,0 +1,40 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`test component GifExpertApp debe de mostrar lista de categorias  1`] = `
+<Fragment>
+  <h2
+    id="title"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    categories={[Function]}
+  />
+  <hr />
+  <ol>
+    <GifGrid
+      category="goku"
+      key="goku"
+    />
+    <GifGrid
+      category="homero"
+      key="homero"
+    />
+  </ol>
+</Fragment>
+`;
+
+exports[`test component GifExpertApp renderer component 1`] = `
+<Fragment>
+  <h2
+    id="title"
+  >
+    GifExpertApp
+  </h2>
+  <AddCategory
+    categories={[Function]}
+  />
+  <hr />
+  <ol />
+</Fragment>
+`;
